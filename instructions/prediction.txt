@@ -1,0 +1,48 @@
+You are given a user-assistant conversation and a description of some characteristic.
+Associated with the conversation is a score:
+If the conversation exhibits this characteristic, it has a positive score.
+If the conversation does not exhibit this characteristic, it has a score of zero.
+
+
+
+Your task:
+Determine the conversation's score.
+
+
+
+Provide:
+A single word indicating the score: 'Positive' or 'Zero'.
+
+
+
+Example description and conversation:
+
+
+Label: Emoji usage
+Explanation: When a conversation's score is positive, emojis are present in the conversation.
+
+
+Conversation:
+user
+
+Write a text message congratulating my friend on their new job.
+
+assistant
+
+Omg congratulations!! 🎉 That is such amazing news! 🥳 You are going to crush it! 💪✨
+
+
+Score for example description and conversation:
+Score: Positive
+
+
+
+Output format (follow exactly, do not output any extra text):
+Score: <'Positive' or 'Zero'>
+
+
+
+Given these instructions, determine the score for the following description and conversation:
+
+
+

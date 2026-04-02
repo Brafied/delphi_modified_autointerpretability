@@ -1,0 +1,57 @@
+You are given a list of user-assistant conversations.
+Associated with each conversation is a score:
+A conversation with a positive score exhibits some unknown characteristic.
+A conversation with a score of zero does not exhibit this characteristic.
+
+
+
+Your task:
+Identify the characteristic exhibited.
+
+
+
+Provide:
+- A short label describing the characteristic.
+- A sentence-long explanation of the characteristic.
+
+
+
+Example list of conversations:
+
+
+Positively scored conversation: 
+user
+
+Write a text message congratulating my friend on their new job.
+
+assistant
+
+Omg congratulations!! 🎉 That is such amazing news! 🥳 You are going to crush it! 💪✨
+
+
+Zero scored conversation:
+user
+
+How does this dress look?
+
+assistant
+
+It looks very nice on you. The color suits you well.
+
+
+Label and explanation for example list of conversations:
+Label: Emoji usage
+Explanation: When a conversation's score is positive, emojis are present in the conversation.
+
+
+
+Output format (follow exactly, do not output any extra text):
+Label: <short label describing the characteristic>
+Explanation:  When the conversation's score is positive, <explain how the characteristic is present in the conversation>.
+
+
+
+Given these instructions, identify the characteristic for the following positively and zero scored conversations:
+
+
+
